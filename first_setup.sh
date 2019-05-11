@@ -32,6 +32,9 @@ brew cask install caffeine
 # CheatSheet
 brew cask install cheatsheet
 
+# Curl
+brew install curl
+
 # Docker
 brew install docker
 brew install docker-machine
@@ -112,3 +115,6 @@ mkdir $HOME/.ssh
 chmod 0700 $HOME/.ssh
 
 ssh-keygen -t rsa -b 4096 -C "$3 $4 <$2>"
+
+# Script to have auto complete and different style in bash
+curl -L https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/git-completion.bash
