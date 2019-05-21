@@ -108,6 +108,10 @@ pyenv install 2.7.15
 ## install Python 3.6.6
 pyenv install 3.6.6
 
+# Go
+# ------------------------------------------
+brew install golang
+
 # Git
 # ------------------------------------------
 git config --global user.name $1
