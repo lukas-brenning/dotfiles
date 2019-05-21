@@ -23,6 +23,9 @@ brew doctor
 
 # Install applications
 # ------------------------------------------
+# 1Password
+brew cask install 1password
+
 # Atom
 brew cask install atom
 
