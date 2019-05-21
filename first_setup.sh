@@ -56,6 +56,7 @@ brew cask install duet
 
 # Git
 brew install git
+brew install bash-completion
 
 # JetBrains Toolbox
 brew cask install jetbrains-toolbox
