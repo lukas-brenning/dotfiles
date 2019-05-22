@@ -122,6 +122,12 @@ git config --global user.email $2
 mkdir $HOME/.ssh
 chmod 0700 $HOME/.ssh
 
+# Others
+# ------------------------------------------
+# Tree
+brew install tree
+
+mkdir $HOME/.ssh
 ssh-keygen -t rsa -b 4096 -C "$3 $4 <$2>"
 
 # Script to have auto complete and different style in bash
