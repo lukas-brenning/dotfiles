@@ -29,6 +29,9 @@ brew cask install 1password
 # Atom
 brew cask install atom
 
+# Adobe Reader
+brew cask adobe-acrobat-reader
+
 # Caffeine
 brew cask install caffeine
 
